@@ -1,0 +1,27 @@
+GET http://localhost:3000/properties HTTP/1.1
+###
+
+POST http://localhost:3000/properties HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+
+POST http://localhost:3000/properties HTTP/1.1
+content-type: application/json
+
+{
+    "title": "La Vida",
+  "description": "hello",
+  "rating": "8.5",
+  "stars": "4.5",
+  "type": "House",
+  "address": "Guateng, 192 43",
+  "images": []
+}
+
+###
